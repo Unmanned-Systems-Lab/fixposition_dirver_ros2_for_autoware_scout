@@ -1,0 +1,230 @@
+[0.021s] Invoking command in '/home/lhl/fixposition_driver/build/rtcm_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lhl/fixposition_driver/rtcm_msgs -DCMAKE_INSTALL_PREFIX=/home/lhl/fixposition_driver/install/rtcm_msgs
+[0.142s] -- The C compiler identification is GNU 11.4.0
+[0.251s] -- The CXX compiler identification is GNU 11.4.0
+[0.267s] -- Detecting C compiler ABI info
+[0.382s] -- Detecting C compiler ABI info - done
+[0.393s] -- Check for working C compiler: /usr/lib/ccache/gcc - skipped
+[0.394s] -- Detecting C compile features
+[0.395s] -- Detecting C compile features - done
+[0.401s] -- Detecting CXX compiler ABI info
+[0.623s] -- Detecting CXX compiler ABI info - done
+[0.653s] -- Check for working CXX compiler: /usr/lib/ccache/g++ - skipped
+[0.653s] -- Detecting CXX compile features
+[0.653s] -- Detecting CXX compile features - done
+[0.668s] -- Found ros_environment: 3.2.2 (/opt/ros/humble/share/ros_environment/cmake)
+[0.668s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[1.424s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.965s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.978s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.995s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.023s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.063s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.118s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[3.249s] -- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[3.253s] -- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[3.257s] -- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[3.262s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.909s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.568s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.626s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[5.629s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[5.696s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[5.696s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.697s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[5.697s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[5.748s] -- Found PythonExtra: .so  
+[5.856s] -- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[5.861s] -- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[5.880s] -- Configuring done
+[5.959s] -- Generating done
+[5.965s] -- Build files have been written to: /home/lhl/fixposition_driver/build/rtcm_msgs
+[6.005s] Invoked command in '/home/lhl/fixposition_driver/build/rtcm_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lhl/fixposition_driver/rtcm_msgs -DCMAKE_INSTALL_PREFIX=/home/lhl/fixposition_driver/install/rtcm_msgs
+[6.006s] Invoking command in '/home/lhl/fixposition_driver/build/rtcm_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lhl/fixposition_driver/build/rtcm_msgs -- -j8 -l8
+[6.242s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.305s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.398s] [  6%] Built target ament_cmake_python_copy_rtcm_msgs
+[7.613s] [  6%] Built target rtcm_msgs__cpp
+[7.644s] running egg_info
+[7.649s] creating rtcm_msgs.egg-info
+[7.650s] writing rtcm_msgs.egg-info/PKG-INFO
+[7.651s] writing dependency_links to rtcm_msgs.egg-info/dependency_links.txt
+[7.651s] writing top-level names to rtcm_msgs.egg-info/top_level.txt
+[7.651s] writing manifest file 'rtcm_msgs.egg-info/SOURCES.txt'
+[7.659s] reading manifest file 'rtcm_msgs.egg-info/SOURCES.txt'
+[7.661s] writing manifest file 'rtcm_msgs.egg-info/SOURCES.txt'
+[7.686s] [  9%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[7.692s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[7.698s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.840s] [ 19%] [32mBuilding C object CMakeFiles/rtcm_msgs__rosidl_generator_c.dir/rosidl_generator_c/rtcm_msgs/msg/detail/message__functions.c.o[0m
+[7.858s] [ 19%] Built target ament_cmake_python_build_rtcm_msgs_egg
+[8.234s] [ 22%] [32m[1mLinking C shared library librtcm_msgs__rosidl_generator_c.so[0m
+[8.418s] [ 22%] Built target rtcm_msgs__rosidl_generator_c
+[8.508s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[8.527s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[8.544s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[8.604s] [ 35%] [32mBuilding CXX object CMakeFiles/rtcm_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rtcm_msgs/msg/detail/dds_fastrtps/message__type_support.cpp.o[0m
+[8.811s] [ 38%] [32mBuilding CXX object CMakeFiles/rtcm_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rtcm_msgs/msg/message__type_support.cpp.o[0m
+[9.041s] [ 41%] [32mBuilding CXX object CMakeFiles/rtcm_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rtcm_msgs/msg/detail/message__type_support.cpp.o[0m
+[10.030s] [ 45%] [32mBuilding CXX object CMakeFiles/rtcm_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rtcm_msgs/msg/detail/message__type_support_c.cpp.o[0m
+[10.124s] [ 48%] [32mBuilding C object CMakeFiles/rtcm_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rtcm_msgs/msg/detail/message__type_support.c.o[0m
+[10.200s] [ 51%] [32mBuilding CXX object CMakeFiles/rtcm_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rtcm_msgs/msg/message__type_support.cpp.o[0m
+[10.473s] [ 54%] [32m[1mLinking C shared library librtcm_msgs__rosidl_typesupport_introspection_c.so[0m
+[10.553s] [ 58%] [32m[1mLinking CXX shared library librtcm_msgs__rosidl_typesupport_c.so[0m
+[10.722s] [ 58%] Built target rtcm_msgs__rosidl_typesupport_introspection_c
+[10.850s] [ 58%] Built target rtcm_msgs__rosidl_typesupport_c
+[11.001s] [ 61%] [32m[1mLinking CXX shared library librtcm_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[11.004s] [ 64%] [32m[1mLinking CXX shared library librtcm_msgs__rosidl_typesupport_cpp.so[0m
+[11.172s] [ 67%] [32m[1mLinking CXX shared library librtcm_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[11.189s] [ 67%] Built target rtcm_msgs__rosidl_typesupport_cpp
+[11.379s] [ 67%] Built target rtcm_msgs__rosidl_typesupport_introspection_cpp
+[11.592s] [ 67%] Built target rtcm_msgs__rosidl_typesupport_fastrtps_cpp
+[12.062s] [ 70%] [32m[1mLinking CXX shared library librtcm_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[12.420s] [ 70%] Built target rtcm_msgs__rosidl_typesupport_fastrtps_c
+[12.578s] [ 70%] Built target rtcm_msgs
+[12.745s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[13.978s] [ 74%] Built target rtcm_msgs__py
+[14.100s] [ 77%] [32mBuilding C object CMakeFiles/rtcm_msgs__rosidl_generator_py.dir/rosidl_generator_py/rtcm_msgs/msg/_message_s.c.o[0m
+[15.004s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/rtcm_msgs/librtcm_msgs__rosidl_generator_py.so[0m
+[15.235s] [ 80%] Built target rtcm_msgs__rosidl_generator_py
+[15.363s] [ 83%] [32mBuilding C object CMakeFiles/rtcm_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rtcm_msgs/_rtcm_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[15.388s] [ 87%] [32mBuilding C object CMakeFiles/rtcm_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/rtcm_msgs/_rtcm_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[15.396s] [ 90%] [32mBuilding C object CMakeFiles/rtcm_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/rtcm_msgs/_rtcm_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[16.066s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/rtcm_msgs/rtcm_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[16.179s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/rtcm_msgs/rtcm_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[16.299s] [100%] [32m[1mLinking C shared library rosidl_generator_py/rtcm_msgs/rtcm_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[16.321s] [100%] Built target rtcm_msgs__rosidl_typesupport_c__pyext
+[16.454s] [100%] Built target rtcm_msgs__rosidl_typesupport_introspection_c__pyext
+[16.483s] [100%] Built target rtcm_msgs__rosidl_typesupport_fastrtps_c__pyext
+[16.553s] Invoked command in '/home/lhl/fixposition_driver/build/rtcm_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lhl/fixposition_driver/build/rtcm_msgs -- -j8 -l8
+[17.171s] Invoking command in '/home/lhl/fixposition_driver/build/rtcm_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lhl/fixposition_driver/build/rtcm_msgs
+[17.191s] -- Install configuration: ""
+[17.192s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/share/ament_index/resource_index/rosidl_interfaces/rtcm_msgs
+[17.193s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs
+[17.196s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg
+[17.198s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg/detail
+[17.199s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg/detail/message__type_support.h
+[17.202s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg/detail/message__functions.h
+[17.206s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg/detail/message__struct.h
+[17.208s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg/detail/message__functions.c
+[17.211s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg/rosidl_generator_c__visibility_control.h
+[17.213s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg/message.h
+[17.216s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/environment/library_path.sh
+[17.216s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/environment/library_path.dsv
+[17.217s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/lib/librtcm_msgs__rosidl_generator_c.so
+[17.221s] -- Set runtime path of "/home/lhl/fixposition_driver/install/rtcm_msgs/lib/librtcm_msgs__rosidl_generator_c.so" to ""
+[17.222s] -- Up-to-date: /home/lhl/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs
+[17.222s] -- Up-to-date: /home/lhl/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg
+[17.223s] -- Up-to-date: /home/lhl/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg/detail
+[17.224s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg/detail/message__rosidl_typesupport_fastrtps_c.h
+[17.226s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[17.229s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/lib/librtcm_msgs__rosidl_typesupport_fastrtps_c.so
+[17.232s] -- Set runtime path of "/home/lhl/fixposition_driver/install/rtcm_msgs/lib/librtcm_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[17.233s] -- Up-to-date: /home/lhl/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs
+[17.234s] -- Up-to-date: /home/lhl/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg
+[17.234s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg/message.hpp
+[17.237s] -- Up-to-date: /home/lhl/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg/detail
+[17.237s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg/detail/message__struct.hpp
+[17.240s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg/detail/message__traits.hpp
+[17.242s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg/detail/message__builder.hpp
+[17.244s] -- Up-to-date: /home/lhl/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs
+[17.245s] -- Up-to-date: /home/lhl/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg
+[17.245s] -- Up-to-date: /home/lhl/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg/detail
+[17.246s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg/detail/message__rosidl_typesupport_fastrtps_cpp.hpp
+[17.247s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg/detail/dds_fastrtps
+[17.249s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[17.250s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/lib/librtcm_msgs__rosidl_typesupport_fastrtps_cpp.so
+[17.253s] -- Set runtime path of "/home/lhl/fixposition_driver/install/rtcm_msgs/lib/librtcm_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[17.254s] -- Up-to-date: /home/lhl/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs
+[17.255s] -- Up-to-date: /home/lhl/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg
+[17.256s] -- Up-to-date: /home/lhl/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg/detail
+[17.256s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg/detail/message__type_support.c
+[17.257s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg/detail/message__rosidl_typesupport_introspection_c.h
+[17.259s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[17.261s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/lib/librtcm_msgs__rosidl_typesupport_introspection_c.so
+[17.263s] -- Set runtime path of "/home/lhl/fixposition_driver/install/rtcm_msgs/lib/librtcm_msgs__rosidl_typesupport_introspection_c.so" to ""
+[17.264s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/lib/librtcm_msgs__rosidl_typesupport_c.so
+[17.266s] -- Set runtime path of "/home/lhl/fixposition_driver/install/rtcm_msgs/lib/librtcm_msgs__rosidl_typesupport_c.so" to ""
+[17.266s] -- Up-to-date: /home/lhl/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs
+[17.267s] -- Up-to-date: /home/lhl/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg
+[17.267s] -- Up-to-date: /home/lhl/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg/detail
+[17.268s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg/detail/message__rosidl_typesupport_introspection_cpp.hpp
+[17.269s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg/detail/message__type_support.cpp
+[17.271s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/lib/librtcm_msgs__rosidl_typesupport_introspection_cpp.so
+[17.273s] -- Set runtime path of "/home/lhl/fixposition_driver/install/rtcm_msgs/lib/librtcm_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[17.274s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/lib/librtcm_msgs__rosidl_typesupport_cpp.so
+[17.275s] -- Set runtime path of "/home/lhl/fixposition_driver/install/rtcm_msgs/lib/librtcm_msgs__rosidl_typesupport_cpp.so" to ""
+[17.276s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/environment/pythonpath.sh
+[17.277s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/environment/pythonpath.dsv
+[17.278s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/local/lib/python3.10/dist-packages/rtcm_msgs-1.1.6-py3.10.egg-info
+[17.278s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/local/lib/python3.10/dist-packages/rtcm_msgs-1.1.6-py3.10.egg-info/dependency_links.txt
+[17.279s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/local/lib/python3.10/dist-packages/rtcm_msgs-1.1.6-py3.10.egg-info/PKG-INFO
+[17.280s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/local/lib/python3.10/dist-packages/rtcm_msgs-1.1.6-py3.10.egg-info/top_level.txt
+[17.280s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/local/lib/python3.10/dist-packages/rtcm_msgs-1.1.6-py3.10.egg-info/SOURCES.txt
+[17.281s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/local/lib/python3.10/dist-packages/rtcm_msgs
+[17.281s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/local/lib/python3.10/dist-packages/rtcm_msgs/_rtcm_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[17.282s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/local/lib/python3.10/dist-packages/rtcm_msgs/_rtcm_msgs_s.ep.rosidl_typesupport_c.c
+[17.283s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/local/lib/python3.10/dist-packages/rtcm_msgs/rtcm_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[17.283s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/local/lib/python3.10/dist-packages/rtcm_msgs/librtcm_msgs__rosidl_generator_py.so
+[17.284s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/local/lib/python3.10/dist-packages/rtcm_msgs/rtcm_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[17.284s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/local/lib/python3.10/dist-packages/rtcm_msgs/msg
+[17.285s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/local/lib/python3.10/dist-packages/rtcm_msgs/msg/_message.py
+[17.285s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/local/lib/python3.10/dist-packages/rtcm_msgs/msg/_message_s.c
+[17.286s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/local/lib/python3.10/dist-packages/rtcm_msgs/msg/__init__.py
+[17.286s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/local/lib/python3.10/dist-packages/rtcm_msgs/__init__.py
+[17.287s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/local/lib/python3.10/dist-packages/rtcm_msgs/rtcm_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[17.288s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/local/lib/python3.10/dist-packages/rtcm_msgs/_rtcm_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[17.433s] Listing '/home/lhl/fixposition_driver/install/rtcm_msgs/local/lib/python3.10/dist-packages/rtcm_msgs'...
+[17.434s] Compiling '/home/lhl/fixposition_driver/install/rtcm_msgs/local/lib/python3.10/dist-packages/rtcm_msgs/__init__.py'...
+[17.434s] Listing '/home/lhl/fixposition_driver/install/rtcm_msgs/local/lib/python3.10/dist-packages/rtcm_msgs/msg'...
+[17.434s] Compiling '/home/lhl/fixposition_driver/install/rtcm_msgs/local/lib/python3.10/dist-packages/rtcm_msgs/msg/__init__.py'...
+[17.434s] Compiling '/home/lhl/fixposition_driver/install/rtcm_msgs/local/lib/python3.10/dist-packages/rtcm_msgs/msg/_message.py'...
+[17.460s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/local/lib/python3.10/dist-packages/rtcm_msgs/rtcm_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[17.460s] -- Set runtime path of "/home/lhl/fixposition_driver/install/rtcm_msgs/local/lib/python3.10/dist-packages/rtcm_msgs/rtcm_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[17.461s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/local/lib/python3.10/dist-packages/rtcm_msgs/rtcm_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[17.461s] -- Set runtime path of "/home/lhl/fixposition_driver/install/rtcm_msgs/local/lib/python3.10/dist-packages/rtcm_msgs/rtcm_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[17.461s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/local/lib/python3.10/dist-packages/rtcm_msgs/rtcm_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[17.462s] -- Set runtime path of "/home/lhl/fixposition_driver/install/rtcm_msgs/local/lib/python3.10/dist-packages/rtcm_msgs/rtcm_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[17.462s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/lib/librtcm_msgs__rosidl_generator_py.so
+[17.463s] -- Set runtime path of "/home/lhl/fixposition_driver/install/rtcm_msgs/lib/librtcm_msgs__rosidl_generator_py.so" to ""
+[17.463s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/msg/Message.idl
+[17.463s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/msg/Message.msg
+[17.464s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/share/ament_index/resource_index/package_run_dependencies/rtcm_msgs
+[17.464s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/share/ament_index/resource_index/parent_prefix_path/rtcm_msgs
+[17.465s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/environment/ament_prefix_path.sh
+[17.465s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/environment/ament_prefix_path.dsv
+[17.465s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/environment/path.sh
+[17.465s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/environment/path.dsv
+[17.466s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/local_setup.bash
+[17.466s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/local_setup.sh
+[17.466s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/local_setup.zsh
+[17.466s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/local_setup.dsv
+[17.467s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/package.dsv
+[17.467s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/share/ament_index/resource_index/packages/rtcm_msgs
+[17.467s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/cmake/export_rtcm_msgs__rosidl_generator_cExport.cmake
+[17.468s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/cmake/export_rtcm_msgs__rosidl_generator_cExport-noconfig.cmake
+[17.468s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/cmake/export_rtcm_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[17.470s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/cmake/export_rtcm_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[17.471s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/cmake/export_rtcm_msgs__rosidl_generator_cppExport.cmake
+[17.471s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/cmake/export_rtcm_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[17.471s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/cmake/export_rtcm_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[17.472s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/cmake/rtcm_msgs__rosidl_typesupport_introspection_cExport.cmake
+[17.472s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/cmake/rtcm_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[17.472s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/cmake/rtcm_msgs__rosidl_typesupport_cExport.cmake
+[17.472s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/cmake/rtcm_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[17.473s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/cmake/rtcm_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[17.473s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/cmake/rtcm_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[17.473s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/cmake/rtcm_msgs__rosidl_typesupport_cppExport.cmake
+[17.474s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/cmake/rtcm_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[17.474s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/cmake/export_rtcm_msgs__rosidl_generator_pyExport.cmake
+[17.474s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/cmake/export_rtcm_msgs__rosidl_generator_pyExport-noconfig.cmake
+[17.474s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/cmake/rosidl_cmake-extras.cmake
+[17.475s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[17.475s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[17.475s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[17.476s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[17.476s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[17.476s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[17.477s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/cmake/rtcm_msgsConfig.cmake
+[17.477s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/cmake/rtcm_msgsConfig-version.cmake
+[17.477s] -- Installing: /home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/package.xml
+[17.493s] Invoked command in '/home/lhl/fixposition_driver/build/rtcm_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lhl/fixposition_driver/build/rtcm_msgs

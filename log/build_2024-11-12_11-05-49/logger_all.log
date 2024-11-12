@@ -1,0 +1,337 @@
+[0.220s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.220s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffad62ec50>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffad62e710>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffad62e710>>)
+[0.589s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.589s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.589s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.589s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.589s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.589s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.590s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lhl/fixposition_driver'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_driver_lib) by extensions ['ignore', 'ignore_ament_install']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_driver_lib) by extension 'ignore'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_driver_lib) by extension 'ignore_ament_install'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_driver_lib) by extensions ['colcon_pkg']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_driver_lib) by extension 'colcon_pkg'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_driver_lib) by extensions ['colcon_meta']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_driver_lib) by extension 'colcon_meta'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_driver_lib) by extensions ['ros']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_driver_lib) by extension 'ros'
+[0.661s] DEBUG:colcon.colcon_core.package_identification:Package 'fixposition_driver_lib' with type 'ros.cmake' and name 'fixposition_driver_lib'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_driver_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_driver_ros2) by extension 'ignore'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_driver_ros2) by extension 'ignore_ament_install'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_driver_ros2) by extensions ['colcon_pkg']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_driver_ros2) by extension 'colcon_pkg'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_driver_ros2) by extensions ['colcon_meta']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_driver_ros2) by extension 'colcon_meta'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_driver_ros2) by extensions ['ros']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_driver_ros2) by extension 'ros'
+[0.665s] DEBUG:colcon.colcon_core.package_identification:Package 'fixposition_driver_ros2' with type 'ros.ament_cmake' and name 'fixposition_driver_ros2'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_odometry_converter_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_odometry_converter_ros2) by extension 'ignore'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_odometry_converter_ros2) by extension 'ignore_ament_install'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_odometry_converter_ros2) by extensions ['colcon_pkg']
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_odometry_converter_ros2) by extension 'colcon_pkg'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_odometry_converter_ros2) by extensions ['colcon_meta']
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_odometry_converter_ros2) by extension 'colcon_meta'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_odometry_converter_ros2) by extensions ['ros']
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_odometry_converter_ros2) by extension 'ros'
+[0.668s] DEBUG:colcon.colcon_core.package_identification:Package 'fixposition_odometry_converter_ros2' with type 'ros.ament_cmake' and name 'fixposition_odometry_converter_ros2'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(rtcm_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(rtcm_msgs) by extension 'ignore'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(rtcm_msgs) by extension 'ignore_ament_install'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(rtcm_msgs) by extensions ['colcon_pkg']
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(rtcm_msgs) by extension 'colcon_pkg'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(rtcm_msgs) by extensions ['colcon_meta']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(rtcm_msgs) by extension 'colcon_meta'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(rtcm_msgs) by extensions ['ros']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(rtcm_msgs) by extension 'ros'
+[0.676s] DEBUG:colcon.colcon_core.package_identification:Package 'rtcm_msgs' with type 'ros.ament_cmake' and name 'rtcm_msgs'
+[0.676s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.676s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.676s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.676s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.676s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.716s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.716s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.720s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/lhl/fixposition_driver/install
+[0.722s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 354 installed packages in /opt/ros/humble
+[0.726s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.809s] Level 5:colcon.colcon_core.verb:set package 'fixposition_driver_lib' build argument 'cmake_args' from command line to 'None'
+[0.810s] Level 5:colcon.colcon_core.verb:set package 'fixposition_driver_lib' build argument 'cmake_target' from command line to 'None'
+[0.810s] Level 5:colcon.colcon_core.verb:set package 'fixposition_driver_lib' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.810s] Level 5:colcon.colcon_core.verb:set package 'fixposition_driver_lib' build argument 'cmake_clean_cache' from command line to 'False'
+[0.810s] Level 5:colcon.colcon_core.verb:set package 'fixposition_driver_lib' build argument 'cmake_clean_first' from command line to 'False'
+[0.810s] Level 5:colcon.colcon_core.verb:set package 'fixposition_driver_lib' build argument 'cmake_force_configure' from command line to 'False'
+[0.810s] Level 5:colcon.colcon_core.verb:set package 'fixposition_driver_lib' build argument 'ament_cmake_args' from command line to 'None'
+[0.810s] Level 5:colcon.colcon_core.verb:set package 'fixposition_driver_lib' build argument 'catkin_cmake_args' from command line to 'None'
+[0.810s] Level 5:colcon.colcon_core.verb:set package 'fixposition_driver_lib' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.810s] DEBUG:colcon.colcon_core.verb:Building package 'fixposition_driver_lib' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lhl/fixposition_driver/build/fixposition_driver_lib', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lhl/fixposition_driver/install/fixposition_driver_lib', 'merge_install': False, 'path': '/home/lhl/fixposition_driver/fixposition_driver_lib', 'symlink_install': False, 'test_result_base': None}
+[0.811s] Level 5:colcon.colcon_core.verb:set package 'rtcm_msgs' build argument 'cmake_args' from command line to 'None'
+[0.811s] Level 5:colcon.colcon_core.verb:set package 'rtcm_msgs' build argument 'cmake_target' from command line to 'None'
+[0.811s] Level 5:colcon.colcon_core.verb:set package 'rtcm_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.811s] Level 5:colcon.colcon_core.verb:set package 'rtcm_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.811s] Level 5:colcon.colcon_core.verb:set package 'rtcm_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.811s] Level 5:colcon.colcon_core.verb:set package 'rtcm_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.811s] Level 5:colcon.colcon_core.verb:set package 'rtcm_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.811s] Level 5:colcon.colcon_core.verb:set package 'rtcm_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.811s] Level 5:colcon.colcon_core.verb:set package 'rtcm_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.811s] DEBUG:colcon.colcon_core.verb:Building package 'rtcm_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lhl/fixposition_driver/build/rtcm_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lhl/fixposition_driver/install/rtcm_msgs', 'merge_install': False, 'path': '/home/lhl/fixposition_driver/rtcm_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.812s] Level 5:colcon.colcon_core.verb:set package 'fixposition_driver_ros2' build argument 'cmake_args' from command line to 'None'
+[0.812s] Level 5:colcon.colcon_core.verb:set package 'fixposition_driver_ros2' build argument 'cmake_target' from command line to 'None'
+[0.812s] Level 5:colcon.colcon_core.verb:set package 'fixposition_driver_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.812s] Level 5:colcon.colcon_core.verb:set package 'fixposition_driver_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.812s] Level 5:colcon.colcon_core.verb:set package 'fixposition_driver_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.812s] Level 5:colcon.colcon_core.verb:set package 'fixposition_driver_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.812s] Level 5:colcon.colcon_core.verb:set package 'fixposition_driver_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.812s] Level 5:colcon.colcon_core.verb:set package 'fixposition_driver_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.812s] Level 5:colcon.colcon_core.verb:set package 'fixposition_driver_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.812s] DEBUG:colcon.colcon_core.verb:Building package 'fixposition_driver_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lhl/fixposition_driver/build/fixposition_driver_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lhl/fixposition_driver/install/fixposition_driver_ros2', 'merge_install': False, 'path': '/home/lhl/fixposition_driver/fixposition_driver_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.813s] Level 5:colcon.colcon_core.verb:set package 'fixposition_odometry_converter_ros2' build argument 'cmake_args' from command line to 'None'
+[0.813s] Level 5:colcon.colcon_core.verb:set package 'fixposition_odometry_converter_ros2' build argument 'cmake_target' from command line to 'None'
+[0.813s] Level 5:colcon.colcon_core.verb:set package 'fixposition_odometry_converter_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.813s] Level 5:colcon.colcon_core.verb:set package 'fixposition_odometry_converter_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.813s] Level 5:colcon.colcon_core.verb:set package 'fixposition_odometry_converter_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.813s] Level 5:colcon.colcon_core.verb:set package 'fixposition_odometry_converter_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.813s] Level 5:colcon.colcon_core.verb:set package 'fixposition_odometry_converter_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.813s] Level 5:colcon.colcon_core.verb:set package 'fixposition_odometry_converter_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.813s] Level 5:colcon.colcon_core.verb:set package 'fixposition_odometry_converter_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.813s] DEBUG:colcon.colcon_core.verb:Building package 'fixposition_odometry_converter_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lhl/fixposition_driver/build/fixposition_odometry_converter_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lhl/fixposition_driver/install/fixposition_odometry_converter_ros2', 'merge_install': False, 'path': '/home/lhl/fixposition_driver/fixposition_odometry_converter_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.814s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.816s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.816s] INFO:colcon.colcon_ros.task.cmake.build:Building ROS package in '/home/lhl/fixposition_driver/fixposition_driver_lib' with build type 'cmake'
+[0.817s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lhl/fixposition_driver/fixposition_driver_lib'
+[0.821s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.821s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.821s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.830s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lhl/fixposition_driver/rtcm_msgs' with build type 'ament_cmake'
+[0.831s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lhl/fixposition_driver/rtcm_msgs'
+[0.831s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.831s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.847s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lhl/fixposition_driver/build/fixposition_driver_lib': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lhl/fixposition_driver/build/fixposition_driver_lib -- -j8 -l8
+[0.855s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lhl/fixposition_driver/build/rtcm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lhl/fixposition_driver/build/rtcm_msgs -- -j8 -l8
+[1.266s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lhl/fixposition_driver/build/fixposition_driver_lib' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lhl/fixposition_driver/build/fixposition_driver_lib -- -j8 -l8
+[1.440s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lhl/fixposition_driver/build/fixposition_driver_lib': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lhl/fixposition_driver/build/fixposition_driver_lib
+[1.465s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lhl/fixposition_driver/build/fixposition_driver_lib' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lhl/fixposition_driver/build/fixposition_driver_lib
+[1.614s] Level 1:colcon.colcon_core.shell:create_environment_hook('fixposition_driver_lib', 'pkg_config_path')
+[1.614s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lhl/fixposition_driver/install/fixposition_driver_lib/share/fixposition_driver_lib/hook/pkg_config_path.ps1'
+[1.616s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lhl/fixposition_driver/install/fixposition_driver_lib/share/fixposition_driver_lib/hook/pkg_config_path.dsv'
+[1.618s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lhl/fixposition_driver/install/fixposition_driver_lib/share/fixposition_driver_lib/hook/pkg_config_path.sh'
+[1.622s] Level 1:colcon.colcon_core.shell:create_environment_hook('fixposition_driver_lib', 'pkg_config_path_multiarch')
+[1.623s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lhl/fixposition_driver/install/fixposition_driver_lib/share/fixposition_driver_lib/hook/pkg_config_path_multiarch.ps1'
+[1.625s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lhl/fixposition_driver/install/fixposition_driver_lib/share/fixposition_driver_lib/hook/pkg_config_path_multiarch.dsv'
+[1.626s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lhl/fixposition_driver/install/fixposition_driver_lib/share/fixposition_driver_lib/hook/pkg_config_path_multiarch.sh'
+[1.627s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fixposition_driver_lib)
+[1.632s] Level 1:colcon.colcon_core.environment:checking '/home/lhl/fixposition_driver/install/fixposition_driver_lib' for CMake module files
+[1.633s] Level 1:colcon.colcon_core.environment:checking '/home/lhl/fixposition_driver/install/fixposition_driver_lib' for CMake config files
+[1.633s] Level 1:colcon.colcon_core.shell:create_environment_hook('fixposition_driver_lib', 'cmake_prefix_path')
+[1.634s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lhl/fixposition_driver/install/fixposition_driver_lib/share/fixposition_driver_lib/hook/cmake_prefix_path.ps1'
+[1.635s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lhl/fixposition_driver/install/fixposition_driver_lib/share/fixposition_driver_lib/hook/cmake_prefix_path.dsv'
+[1.636s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lhl/fixposition_driver/install/fixposition_driver_lib/share/fixposition_driver_lib/hook/cmake_prefix_path.sh'
+[1.637s] Level 1:colcon.colcon_core.environment:checking '/home/lhl/fixposition_driver/install/fixposition_driver_lib/lib'
+[1.637s] Level 1:colcon.colcon_core.shell:create_environment_hook('fixposition_driver_lib', 'ld_library_path_lib')
+[1.638s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lhl/fixposition_driver/install/fixposition_driver_lib/share/fixposition_driver_lib/hook/ld_library_path_lib.ps1'
+[1.639s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lhl/fixposition_driver/install/fixposition_driver_lib/share/fixposition_driver_lib/hook/ld_library_path_lib.dsv'
+[1.640s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lhl/fixposition_driver/install/fixposition_driver_lib/share/fixposition_driver_lib/hook/ld_library_path_lib.sh'
+[1.640s] Level 1:colcon.colcon_core.environment:checking '/home/lhl/fixposition_driver/install/fixposition_driver_lib/bin'
+[1.641s] Level 1:colcon.colcon_core.environment:checking '/home/lhl/fixposition_driver/install/fixposition_driver_lib/lib/pkgconfig/fixposition_driver_lib.pc'
+[1.641s] Level 1:colcon.colcon_core.environment:checking '/home/lhl/fixposition_driver/install/fixposition_driver_lib/lib/python3.10/site-packages'
+[1.641s] Level 1:colcon.colcon_core.environment:checking '/home/lhl/fixposition_driver/install/fixposition_driver_lib/bin'
+[1.642s] INFO:colcon.colcon_core.shell:Creating package script '/home/lhl/fixposition_driver/install/fixposition_driver_lib/share/fixposition_driver_lib/package.ps1'
+[1.644s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lhl/fixposition_driver/install/fixposition_driver_lib/share/fixposition_driver_lib/package.dsv'
+[1.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/lhl/fixposition_driver/install/fixposition_driver_lib/share/fixposition_driver_lib/package.sh'
+[1.648s] INFO:colcon.colcon_core.shell:Creating package script '/home/lhl/fixposition_driver/install/fixposition_driver_lib/share/fixposition_driver_lib/package.bash'
+[1.649s] INFO:colcon.colcon_core.shell:Creating package script '/home/lhl/fixposition_driver/install/fixposition_driver_lib/share/fixposition_driver_lib/package.zsh'
+[1.651s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lhl/fixposition_driver/install/fixposition_driver_lib/share/colcon-core/packages/fixposition_driver_lib)
+[1.708s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lhl/fixposition_driver/build/rtcm_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lhl/fixposition_driver/build/rtcm_msgs -- -j8 -l8
+[1.821s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lhl/fixposition_driver/build/rtcm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lhl/fixposition_driver/build/rtcm_msgs
+[1.932s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rtcm_msgs)
+[1.933s] Level 1:colcon.colcon_core.environment:checking '/home/lhl/fixposition_driver/install/rtcm_msgs' for CMake module files
+[1.941s] Level 1:colcon.colcon_core.environment:checking '/home/lhl/fixposition_driver/install/rtcm_msgs' for CMake config files
+[1.946s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lhl/fixposition_driver/build/rtcm_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lhl/fixposition_driver/build/rtcm_msgs
+[1.946s] Level 1:colcon.colcon_core.shell:create_environment_hook('rtcm_msgs', 'cmake_prefix_path')
+[1.947s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/hook/cmake_prefix_path.ps1'
+[1.949s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/hook/cmake_prefix_path.dsv'
+[1.950s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/hook/cmake_prefix_path.sh'
+[1.952s] Level 1:colcon.colcon_core.environment:checking '/home/lhl/fixposition_driver/install/rtcm_msgs/lib'
+[1.952s] Level 1:colcon.colcon_core.shell:create_environment_hook('rtcm_msgs', 'ld_library_path_lib')
+[1.952s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/hook/ld_library_path_lib.ps1'
+[1.953s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/hook/ld_library_path_lib.dsv'
+[1.955s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/hook/ld_library_path_lib.sh'
+[1.956s] Level 1:colcon.colcon_core.environment:checking '/home/lhl/fixposition_driver/install/rtcm_msgs/bin'
+[1.957s] Level 1:colcon.colcon_core.environment:checking '/home/lhl/fixposition_driver/install/rtcm_msgs/lib/pkgconfig/rtcm_msgs.pc'
+[1.958s] Level 1:colcon.colcon_core.environment:checking '/home/lhl/fixposition_driver/install/rtcm_msgs/lib/python3.10/site-packages'
+[1.958s] Level 1:colcon.colcon_core.environment:checking '/home/lhl/fixposition_driver/install/rtcm_msgs/bin'
+[1.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/package.ps1'
+[1.962s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/package.dsv'
+[1.964s] INFO:colcon.colcon_core.shell:Creating package script '/home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/package.sh'
+[1.966s] INFO:colcon.colcon_core.shell:Creating package script '/home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/package.bash'
+[1.967s] INFO:colcon.colcon_core.shell:Creating package script '/home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/package.zsh'
+[1.968s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lhl/fixposition_driver/install/rtcm_msgs/share/colcon-core/packages/rtcm_msgs)
+[2.097s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rtcm_msgs)
+[2.097s] Level 1:colcon.colcon_core.environment:checking '/home/lhl/fixposition_driver/install/rtcm_msgs' for CMake module files
+[2.099s] Level 1:colcon.colcon_core.environment:checking '/home/lhl/fixposition_driver/install/rtcm_msgs' for CMake config files
+[2.100s] Level 1:colcon.colcon_core.shell:create_environment_hook('rtcm_msgs', 'cmake_prefix_path')
+[2.100s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/hook/cmake_prefix_path.ps1'
+[2.102s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/hook/cmake_prefix_path.dsv'
+[2.103s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/hook/cmake_prefix_path.sh'
+[2.104s] Level 1:colcon.colcon_core.environment:checking '/home/lhl/fixposition_driver/install/rtcm_msgs/lib'
+[2.105s] Level 1:colcon.colcon_core.shell:create_environment_hook('rtcm_msgs', 'ld_library_path_lib')
+[2.105s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/hook/ld_library_path_lib.ps1'
+[2.106s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/hook/ld_library_path_lib.dsv'
+[2.107s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/hook/ld_library_path_lib.sh'
+[2.108s] Level 1:colcon.colcon_core.environment:checking '/home/lhl/fixposition_driver/install/rtcm_msgs/bin'
+[2.108s] Level 1:colcon.colcon_core.environment:checking '/home/lhl/fixposition_driver/install/rtcm_msgs/lib/pkgconfig/rtcm_msgs.pc'
+[2.108s] Level 1:colcon.colcon_core.environment:checking '/home/lhl/fixposition_driver/install/rtcm_msgs/lib/python3.10/site-packages'
+[2.109s] Level 1:colcon.colcon_core.environment:checking '/home/lhl/fixposition_driver/install/rtcm_msgs/bin'
+[2.109s] INFO:colcon.colcon_core.shell:Creating package script '/home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/package.ps1'
+[2.111s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/package.dsv'
+[2.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/package.sh'
+[2.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/package.bash'
+[2.114s] INFO:colcon.colcon_core.shell:Creating package script '/home/lhl/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/package.zsh'
+[2.116s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lhl/fixposition_driver/install/rtcm_msgs/share/colcon-core/packages/rtcm_msgs)
+[2.117s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lhl/fixposition_driver/fixposition_driver_ros2' with build type 'ament_cmake'
+[2.117s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lhl/fixposition_driver/fixposition_driver_ros2'
+[2.118s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.118s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.151s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lhl/fixposition_driver/build/fixposition_driver_ros2': CMAKE_PREFIX_PATH=/home/lhl/fixposition_driver/install/rtcm_msgs:/home/lhl/fixposition_driver/install/fixposition_driver_lib:/home/lhl/fixposition_driver/install/fixposition_odometry_converter_ros2:/home/lhl/fixposition_driver/install/fixposition_driver_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/fixposition_driver/install/rtcm_msgs/lib:/home/lhl/fixposition_driver/install/fixposition_driver_lib/lib:/home/lhl/fixposition_driver/install/fixposition_odometry_converter_ros2/lib:/home/lhl/fixposition_driver/install/fixposition_driver_ros2/lib:/usr/local/cuda-12.2/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64 /usr/bin/cmake --build /home/lhl/fixposition_driver/build/fixposition_driver_ros2 -- -j8 -l8
+[2.962s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lhl/fixposition_driver/build/fixposition_driver_ros2' returned '0': CMAKE_PREFIX_PATH=/home/lhl/fixposition_driver/install/rtcm_msgs:/home/lhl/fixposition_driver/install/fixposition_driver_lib:/home/lhl/fixposition_driver/install/fixposition_odometry_converter_ros2:/home/lhl/fixposition_driver/install/fixposition_driver_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/fixposition_driver/install/rtcm_msgs/lib:/home/lhl/fixposition_driver/install/fixposition_driver_lib/lib:/home/lhl/fixposition_driver/install/fixposition_odometry_converter_ros2/lib:/home/lhl/fixposition_driver/install/fixposition_driver_ros2/lib:/usr/local/cuda-12.2/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64 /usr/bin/cmake --build /home/lhl/fixposition_driver/build/fixposition_driver_ros2 -- -j8 -l8
+[3.903s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lhl/fixposition_driver/build/fixposition_driver_ros2': CMAKE_PREFIX_PATH=/home/lhl/fixposition_driver/install/rtcm_msgs:/home/lhl/fixposition_driver/install/fixposition_driver_lib:/home/lhl/fixposition_driver/install/fixposition_odometry_converter_ros2:/home/lhl/fixposition_driver/install/fixposition_driver_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/fixposition_driver/install/rtcm_msgs/lib:/home/lhl/fixposition_driver/install/fixposition_driver_lib/lib:/home/lhl/fixposition_driver/install/fixposition_odometry_converter_ros2/lib:/home/lhl/fixposition_driver/install/fixposition_driver_ros2/lib:/usr/local/cuda-12.2/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64 /usr/bin/cmake --install /home/lhl/fixposition_driver/build/fixposition_driver_ros2
+[4.043s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fixposition_driver_ros2)
+[4.044s] Level 1:colcon.colcon_core.environment:checking '/home/lhl/fixposition_driver/install/fixposition_driver_ros2' for CMake module files
+[4.045s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lhl/fixposition_driver/build/fixposition_driver_ros2' returned '0': CMAKE_PREFIX_PATH=/home/lhl/fixposition_driver/install/rtcm_msgs:/home/lhl/fixposition_driver/install/fixposition_driver_lib:/home/lhl/fixposition_driver/install/fixposition_odometry_converter_ros2:/home/lhl/fixposition_driver/install/fixposition_driver_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/fixposition_driver/install/rtcm_msgs/lib:/home/lhl/fixposition_driver/install/fixposition_driver_lib/lib:/home/lhl/fixposition_driver/install/fixposition_odometry_converter_ros2/lib:/home/lhl/fixposition_driver/install/fixposition_driver_ros2/lib:/usr/local/cuda-12.2/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64 /usr/bin/cmake --install /home/lhl/fixposition_driver/build/fixposition_driver_ros2
+[4.046s] Level 1:colcon.colcon_core.environment:checking '/home/lhl/fixposition_driver/install/fixposition_driver_ros2' for CMake config files
+[4.047s] Level 1:colcon.colcon_core.shell:create_environment_hook('fixposition_driver_ros2', 'cmake_prefix_path')
+[4.048s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lhl/fixposition_driver/install/fixposition_driver_ros2/share/fixposition_driver_ros2/hook/cmake_prefix_path.ps1'
+[4.049s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lhl/fixposition_driver/install/fixposition_driver_ros2/share/fixposition_driver_ros2/hook/cmake_prefix_path.dsv'
+[4.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lhl/fixposition_driver/install/fixposition_driver_ros2/share/fixposition_driver_ros2/hook/cmake_prefix_path.sh'
+[4.051s] Level 1:colcon.colcon_core.environment:checking '/home/lhl/fixposition_driver/install/fixposition_driver_ros2/lib'
+[4.052s] Level 1:colcon.colcon_core.shell:create_environment_hook('fixposition_driver_ros2', 'ld_library_path_lib')
+[4.052s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lhl/fixposition_driver/install/fixposition_driver_ros2/share/fixposition_driver_ros2/hook/ld_library_path_lib.ps1'
+[4.053s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lhl/fixposition_driver/install/fixposition_driver_ros2/share/fixposition_driver_ros2/hook/ld_library_path_lib.dsv'
+[4.054s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lhl/fixposition_driver/install/fixposition_driver_ros2/share/fixposition_driver_ros2/hook/ld_library_path_lib.sh'
+[4.054s] Level 1:colcon.colcon_core.environment:checking '/home/lhl/fixposition_driver/install/fixposition_driver_ros2/bin'
+[4.054s] Level 1:colcon.colcon_core.environment:checking '/home/lhl/fixposition_driver/install/fixposition_driver_ros2/lib/pkgconfig/fixposition_driver_ros2.pc'
+[4.055s] Level 1:colcon.colcon_core.environment:checking '/home/lhl/fixposition_driver/install/fixposition_driver_ros2/lib/python3.10/site-packages'
+[4.055s] Level 1:colcon.colcon_core.environment:checking '/home/lhl/fixposition_driver/install/fixposition_driver_ros2/bin'
+[4.056s] INFO:colcon.colcon_core.shell:Creating package script '/home/lhl/fixposition_driver/install/fixposition_driver_ros2/share/fixposition_driver_ros2/package.ps1'
+[4.057s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lhl/fixposition_driver/install/fixposition_driver_ros2/share/fixposition_driver_ros2/package.dsv'
+[4.058s] INFO:colcon.colcon_core.shell:Creating package script '/home/lhl/fixposition_driver/install/fixposition_driver_ros2/share/fixposition_driver_ros2/package.sh'
+[4.058s] INFO:colcon.colcon_core.shell:Creating package script '/home/lhl/fixposition_driver/install/fixposition_driver_ros2/share/fixposition_driver_ros2/package.bash'
+[4.059s] INFO:colcon.colcon_core.shell:Creating package script '/home/lhl/fixposition_driver/install/fixposition_driver_ros2/share/fixposition_driver_ros2/package.zsh'
+[4.060s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lhl/fixposition_driver/install/fixposition_driver_ros2/share/colcon-core/packages/fixposition_driver_ros2)
+[4.956s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fixposition_driver_ros2)
+[4.960s] Level 1:colcon.colcon_core.environment:checking '/home/lhl/fixposition_driver/install/fixposition_driver_ros2' for CMake module files
+[4.962s] Level 1:colcon.colcon_core.environment:checking '/home/lhl/fixposition_driver/install/fixposition_driver_ros2' for CMake config files
+[4.964s] Level 1:colcon.colcon_core.shell:create_environment_hook('fixposition_driver_ros2', 'cmake_prefix_path')
+[4.968s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lhl/fixposition_driver/install/fixposition_driver_ros2/share/fixposition_driver_ros2/hook/cmake_prefix_path.ps1'
+[4.972s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lhl/fixposition_driver/install/fixposition_driver_ros2/share/fixposition_driver_ros2/hook/cmake_prefix_path.dsv'
+[4.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lhl/fixposition_driver/install/fixposition_driver_ros2/share/fixposition_driver_ros2/hook/cmake_prefix_path.sh'
+[4.976s] Level 1:colcon.colcon_core.environment:checking '/home/lhl/fixposition_driver/install/fixposition_driver_ros2/lib'
+[4.976s] Level 1:colcon.colcon_core.shell:create_environment_hook('fixposition_driver_ros2', 'ld_library_path_lib')
+[4.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lhl/fixposition_driver/install/fixposition_driver_ros2/share/fixposition_driver_ros2/hook/ld_library_path_lib.ps1'
+[4.978s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lhl/fixposition_driver/install/fixposition_driver_ros2/share/fixposition_driver_ros2/hook/ld_library_path_lib.dsv'
+[4.980s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lhl/fixposition_driver/install/fixposition_driver_ros2/share/fixposition_driver_ros2/hook/ld_library_path_lib.sh'
+[4.981s] Level 1:colcon.colcon_core.environment:checking '/home/lhl/fixposition_driver/install/fixposition_driver_ros2/bin'
+[4.981s] Level 1:colcon.colcon_core.environment:checking '/home/lhl/fixposition_driver/install/fixposition_driver_ros2/lib/pkgconfig/fixposition_driver_ros2.pc'
+[4.982s] Level 1:colcon.colcon_core.environment:checking '/home/lhl/fixposition_driver/install/fixposition_driver_ros2/lib/python3.10/site-packages'
+[4.982s] Level 1:colcon.colcon_core.environment:checking '/home/lhl/fixposition_driver/install/fixposition_driver_ros2/bin'
+[4.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/lhl/fixposition_driver/install/fixposition_driver_ros2/share/fixposition_driver_ros2/package.ps1'
+[4.985s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lhl/fixposition_driver/install/fixposition_driver_ros2/share/fixposition_driver_ros2/package.dsv'
+[4.986s] INFO:colcon.colcon_core.shell:Creating package script '/home/lhl/fixposition_driver/install/fixposition_driver_ros2/share/fixposition_driver_ros2/package.sh'
+[4.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/lhl/fixposition_driver/install/fixposition_driver_ros2/share/fixposition_driver_ros2/package.bash'
+[4.989s] INFO:colcon.colcon_core.shell:Creating package script '/home/lhl/fixposition_driver/install/fixposition_driver_ros2/share/fixposition_driver_ros2/package.zsh'
+[4.990s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lhl/fixposition_driver/install/fixposition_driver_ros2/share/colcon-core/packages/fixposition_driver_ros2)
+[4.992s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lhl/fixposition_driver/fixposition_odometry_converter_ros2' with build type 'ament_cmake'
+[4.993s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lhl/fixposition_driver/fixposition_odometry_converter_ros2'
+[4.994s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.994s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.046s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lhl/fixposition_driver/build/fixposition_odometry_converter_ros2': CMAKE_PREFIX_PATH=/home/lhl/fixposition_driver/install/fixposition_driver_ros2:/home/lhl/fixposition_driver/install/rtcm_msgs:/home/lhl/fixposition_driver/install/fixposition_driver_lib:/home/lhl/fixposition_driver/install/fixposition_odometry_converter_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/fixposition_driver/install/fixposition_driver_ros2/lib:/home/lhl/fixposition_driver/install/rtcm_msgs/lib:/home/lhl/fixposition_driver/install/fixposition_driver_lib/lib:/home/lhl/fixposition_driver/install/fixposition_odometry_converter_ros2/lib:/usr/local/cuda-12.2/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64 /usr/bin/cmake --build /home/lhl/fixposition_driver/build/fixposition_odometry_converter_ros2 -- -j8 -l8
+[5.220s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lhl/fixposition_driver/build/fixposition_odometry_converter_ros2' returned '0': CMAKE_PREFIX_PATH=/home/lhl/fixposition_driver/install/fixposition_driver_ros2:/home/lhl/fixposition_driver/install/rtcm_msgs:/home/lhl/fixposition_driver/install/fixposition_driver_lib:/home/lhl/fixposition_driver/install/fixposition_odometry_converter_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/fixposition_driver/install/fixposition_driver_ros2/lib:/home/lhl/fixposition_driver/install/rtcm_msgs/lib:/home/lhl/fixposition_driver/install/fixposition_driver_lib/lib:/home/lhl/fixposition_driver/install/fixposition_odometry_converter_ros2/lib:/usr/local/cuda-12.2/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64 /usr/bin/cmake --build /home/lhl/fixposition_driver/build/fixposition_odometry_converter_ros2 -- -j8 -l8
+[5.277s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lhl/fixposition_driver/build/fixposition_odometry_converter_ros2': CMAKE_PREFIX_PATH=/home/lhl/fixposition_driver/install/fixposition_driver_ros2:/home/lhl/fixposition_driver/install/rtcm_msgs:/home/lhl/fixposition_driver/install/fixposition_driver_lib:/home/lhl/fixposition_driver/install/fixposition_odometry_converter_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/fixposition_driver/install/fixposition_driver_ros2/lib:/home/lhl/fixposition_driver/install/rtcm_msgs/lib:/home/lhl/fixposition_driver/install/fixposition_driver_lib/lib:/home/lhl/fixposition_driver/install/fixposition_odometry_converter_ros2/lib:/usr/local/cuda-12.2/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64 /usr/bin/cmake --install /home/lhl/fixposition_driver/build/fixposition_odometry_converter_ros2
+[5.297s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fixposition_odometry_converter_ros2)
+[5.298s] Level 1:colcon.colcon_core.environment:checking '/home/lhl/fixposition_driver/install/fixposition_odometry_converter_ros2' for CMake module files
+[5.299s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lhl/fixposition_driver/build/fixposition_odometry_converter_ros2' returned '0': CMAKE_PREFIX_PATH=/home/lhl/fixposition_driver/install/fixposition_driver_ros2:/home/lhl/fixposition_driver/install/rtcm_msgs:/home/lhl/fixposition_driver/install/fixposition_driver_lib:/home/lhl/fixposition_driver/install/fixposition_odometry_converter_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/fixposition_driver/install/fixposition_driver_ros2/lib:/home/lhl/fixposition_driver/install/rtcm_msgs/lib:/home/lhl/fixposition_driver/install/fixposition_driver_lib/lib:/home/lhl/fixposition_driver/install/fixposition_odometry_converter_ros2/lib:/usr/local/cuda-12.2/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64 /usr/bin/cmake --install /home/lhl/fixposition_driver/build/fixposition_odometry_converter_ros2
+[5.300s] Level 1:colcon.colcon_core.environment:checking '/home/lhl/fixposition_driver/install/fixposition_odometry_converter_ros2' for CMake config files
+[5.300s] Level 1:colcon.colcon_core.shell:create_environment_hook('fixposition_odometry_converter_ros2', 'cmake_prefix_path')
+[5.301s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lhl/fixposition_driver/install/fixposition_odometry_converter_ros2/share/fixposition_odometry_converter_ros2/hook/cmake_prefix_path.ps1'
+[5.302s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lhl/fixposition_driver/install/fixposition_odometry_converter_ros2/share/fixposition_odometry_converter_ros2/hook/cmake_prefix_path.dsv'
+[5.302s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lhl/fixposition_driver/install/fixposition_odometry_converter_ros2/share/fixposition_odometry_converter_ros2/hook/cmake_prefix_path.sh'
+[5.304s] Level 1:colcon.colcon_core.environment:checking '/home/lhl/fixposition_driver/install/fixposition_odometry_converter_ros2/lib'
+[5.304s] Level 1:colcon.colcon_core.shell:create_environment_hook('fixposition_odometry_converter_ros2', 'ld_library_path_lib')
+[5.304s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lhl/fixposition_driver/install/fixposition_odometry_converter_ros2/share/fixposition_odometry_converter_ros2/hook/ld_library_path_lib.ps1'
+[5.305s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lhl/fixposition_driver/install/fixposition_odometry_converter_ros2/share/fixposition_odometry_converter_ros2/hook/ld_library_path_lib.dsv'
+[5.306s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lhl/fixposition_driver/install/fixposition_odometry_converter_ros2/share/fixposition_odometry_converter_ros2/hook/ld_library_path_lib.sh'
+[5.306s] Level 1:colcon.colcon_core.environment:checking '/home/lhl/fixposition_driver/install/fixposition_odometry_converter_ros2/bin'
+[5.307s] Level 1:colcon.colcon_core.environment:checking '/home/lhl/fixposition_driver/install/fixposition_odometry_converter_ros2/lib/pkgconfig/fixposition_odometry_converter_ros2.pc'
+[5.307s] Level 1:colcon.colcon_core.environment:checking '/home/lhl/fixposition_driver/install/fixposition_odometry_converter_ros2/lib/python3.10/site-packages'
+[5.307s] Level 1:colcon.colcon_core.environment:checking '/home/lhl/fixposition_driver/install/fixposition_odometry_converter_ros2/bin'
+[5.308s] INFO:colcon.colcon_core.shell:Creating package script '/home/lhl/fixposition_driver/install/fixposition_odometry_converter_ros2/share/fixposition_odometry_converter_ros2/package.ps1'
+[5.309s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lhl/fixposition_driver/install/fixposition_odometry_converter_ros2/share/fixposition_odometry_converter_ros2/package.dsv'
+[5.310s] INFO:colcon.colcon_core.shell:Creating package script '/home/lhl/fixposition_driver/install/fixposition_odometry_converter_ros2/share/fixposition_odometry_converter_ros2/package.sh'
+[5.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/lhl/fixposition_driver/install/fixposition_odometry_converter_ros2/share/fixposition_odometry_converter_ros2/package.bash'
+[5.312s] INFO:colcon.colcon_core.shell:Creating package script '/home/lhl/fixposition_driver/install/fixposition_odometry_converter_ros2/share/fixposition_odometry_converter_ros2/package.zsh'
+[5.313s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lhl/fixposition_driver/install/fixposition_odometry_converter_ros2/share/colcon-core/packages/fixposition_odometry_converter_ros2)
+[5.369s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fixposition_odometry_converter_ros2)
+[5.370s] Level 1:colcon.colcon_core.environment:checking '/home/lhl/fixposition_driver/install/fixposition_odometry_converter_ros2' for CMake module files
+[5.371s] Level 1:colcon.colcon_core.environment:checking '/home/lhl/fixposition_driver/install/fixposition_odometry_converter_ros2' for CMake config files
+[5.371s] Level 1:colcon.colcon_core.shell:create_environment_hook('fixposition_odometry_converter_ros2', 'cmake_prefix_path')
+[5.372s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lhl/fixposition_driver/install/fixposition_odometry_converter_ros2/share/fixposition_odometry_converter_ros2/hook/cmake_prefix_path.ps1'
+[5.374s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lhl/fixposition_driver/install/fixposition_odometry_converter_ros2/share/fixposition_odometry_converter_ros2/hook/cmake_prefix_path.dsv'
+[5.374s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lhl/fixposition_driver/install/fixposition_odometry_converter_ros2/share/fixposition_odometry_converter_ros2/hook/cmake_prefix_path.sh'
+[5.376s] Level 1:colcon.colcon_core.environment:checking '/home/lhl/fixposition_driver/install/fixposition_odometry_converter_ros2/lib'
+[5.376s] Level 1:colcon.colcon_core.shell:create_environment_hook('fixposition_odometry_converter_ros2', 'ld_library_path_lib')
+[5.376s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lhl/fixposition_driver/install/fixposition_odometry_converter_ros2/share/fixposition_odometry_converter_ros2/hook/ld_library_path_lib.ps1'
+[5.378s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lhl/fixposition_driver/install/fixposition_odometry_converter_ros2/share/fixposition_odometry_converter_ros2/hook/ld_library_path_lib.dsv'
+[5.379s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lhl/fixposition_driver/install/fixposition_odometry_converter_ros2/share/fixposition_odometry_converter_ros2/hook/ld_library_path_lib.sh'
+[5.382s] Level 1:colcon.colcon_core.environment:checking '/home/lhl/fixposition_driver/install/fixposition_odometry_converter_ros2/bin'
+[5.382s] Level 1:colcon.colcon_core.environment:checking '/home/lhl/fixposition_driver/install/fixposition_odometry_converter_ros2/lib/pkgconfig/fixposition_odometry_converter_ros2.pc'
+[5.383s] Level 1:colcon.colcon_core.environment:checking '/home/lhl/fixposition_driver/install/fixposition_odometry_converter_ros2/lib/python3.10/site-packages'
+[5.384s] Level 1:colcon.colcon_core.environment:checking '/home/lhl/fixposition_driver/install/fixposition_odometry_converter_ros2/bin'
+[5.385s] INFO:colcon.colcon_core.shell:Creating package script '/home/lhl/fixposition_driver/install/fixposition_odometry_converter_ros2/share/fixposition_odometry_converter_ros2/package.ps1'
+[5.386s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lhl/fixposition_driver/install/fixposition_odometry_converter_ros2/share/fixposition_odometry_converter_ros2/package.dsv'
+[5.388s] INFO:colcon.colcon_core.shell:Creating package script '/home/lhl/fixposition_driver/install/fixposition_odometry_converter_ros2/share/fixposition_odometry_converter_ros2/package.sh'
+[5.389s] INFO:colcon.colcon_core.shell:Creating package script '/home/lhl/fixposition_driver/install/fixposition_odometry_converter_ros2/share/fixposition_odometry_converter_ros2/package.bash'
+[5.390s] INFO:colcon.colcon_core.shell:Creating package script '/home/lhl/fixposition_driver/install/fixposition_odometry_converter_ros2/share/fixposition_odometry_converter_ros2/package.zsh'
+[5.391s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lhl/fixposition_driver/install/fixposition_odometry_converter_ros2/share/colcon-core/packages/fixposition_odometry_converter_ros2)
+[5.392s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.393s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.393s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.394s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.405s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.405s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.405s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.437s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.438s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lhl/fixposition_driver/install/local_setup.ps1'
+[5.441s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lhl/fixposition_driver/install/_local_setup_util_ps1.py'
+[5.443s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lhl/fixposition_driver/install/setup.ps1'
+[5.446s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lhl/fixposition_driver/install/local_setup.sh'
+[5.447s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lhl/fixposition_driver/install/_local_setup_util_sh.py'
+[5.448s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lhl/fixposition_driver/install/setup.sh'
+[5.450s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lhl/fixposition_driver/install/local_setup.bash'
+[5.452s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lhl/fixposition_driver/install/setup.bash'
+[5.453s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lhl/fixposition_driver/install/local_setup.zsh'
+[5.455s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lhl/fixposition_driver/install/setup.zsh'

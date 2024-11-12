@@ -1,0 +1,44 @@
+[0.034s] Invoking command in '/home/lhl/fixposition_driver/build/fixposition_driver_lib': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lhl/fixposition_driver/install/fixposition_extractor:/opt/ros/humble /usr/bin/cmake --build /home/lhl/fixposition_driver/build/fixposition_driver_lib -- -j8 -l8
+[0.268s] [100%] Built target fixposition_driver_lib
+[0.293s] Invoked command in '/home/lhl/fixposition_driver/build/fixposition_driver_lib' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lhl/fixposition_driver/install/fixposition_extractor:/opt/ros/humble /usr/bin/cmake --build /home/lhl/fixposition_driver/build/fixposition_driver_lib -- -j8 -l8
+[0.561s] Invoking command in '/home/lhl/fixposition_driver/build/fixposition_driver_lib': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lhl/fixposition_driver/install/fixposition_extractor:/opt/ros/humble /usr/bin/cmake --install /home/lhl/fixposition_driver/build/fixposition_driver_lib
+[0.576s] -- Install configuration: "Release"
+[0.576s] -- Up-to-date: /home/lhl/fixposition_driver/install/fixposition_driver_lib/./include
+[0.576s] -- Up-to-date: /home/lhl/fixposition_driver/install/fixposition_driver_lib/./include/fixposition_driver_lib
+[0.577s] -- Up-to-date: /home/lhl/fixposition_driver/install/fixposition_driver_lib/./include/fixposition_driver_lib/gnss_tf.hpp
+[0.577s] -- Up-to-date: /home/lhl/fixposition_driver/install/fixposition_driver_lib/./include/fixposition_driver_lib/parser.hpp
+[0.577s] -- Up-to-date: /home/lhl/fixposition_driver/install/fixposition_driver_lib/./include/fixposition_driver_lib/messages
+[0.577s] -- Up-to-date: /home/lhl/fixposition_driver/install/fixposition_driver_lib/./include/fixposition_driver_lib/messages/nov_type.hpp
+[0.577s] -- Up-to-date: /home/lhl/fixposition_driver/install/fixposition_driver_lib/./include/fixposition_driver_lib/messages/nmea_type.hpp
+[0.577s] -- Up-to-date: /home/lhl/fixposition_driver/install/fixposition_driver_lib/./include/fixposition_driver_lib/messages/msg_data.hpp
+[0.577s] -- Up-to-date: /home/lhl/fixposition_driver/install/fixposition_driver_lib/./include/fixposition_driver_lib/messages/fpb_measurements.hpp
+[0.577s] -- Up-to-date: /home/lhl/fixposition_driver/install/fixposition_driver_lib/./include/fixposition_driver_lib/messages/fpb_type.hpp
+[0.578s] -- Up-to-date: /home/lhl/fixposition_driver/install/fixposition_driver_lib/./include/fixposition_driver_lib/messages/base_converter.hpp
+[0.578s] -- Up-to-date: /home/lhl/fixposition_driver/install/fixposition_driver_lib/./include/fixposition_driver_lib/messages/fpa_type.hpp
+[0.578s] -- Up-to-date: /home/lhl/fixposition_driver/install/fixposition_driver_lib/./include/fixposition_driver_lib/params.hpp
+[0.578s] -- Up-to-date: /home/lhl/fixposition_driver/install/fixposition_driver_lib/./include/fixposition_driver_lib/time_conversions.hpp
+[0.578s] -- Up-to-date: /home/lhl/fixposition_driver/install/fixposition_driver_lib/./include/fixposition_driver_lib/fixposition_driver.hpp
+[0.578s] -- Up-to-date: /home/lhl/fixposition_driver/install/fixposition_driver_lib/./include/fixposition_driver_lib/helper.hpp
+[0.579s] -- Up-to-date: /home/lhl/fixposition_driver/install/fixposition_driver_lib/lib/libfixposition_driver_lib.so
+[0.579s] -- Up-to-date: /home/lhl/fixposition_driver/install/fixposition_driver_lib/lib/libfixposition_driver_lib.so
+[0.579s] -- Up-to-date: /home/lhl/fixposition_driver/install/fixposition_driver_lib/lib/cmake/fixposition_driver_lib/fixposition_driver_lib-targets.cmake
+[0.579s] -- Up-to-date: /home/lhl/fixposition_driver/install/fixposition_driver_lib/lib/cmake/fixposition_driver_lib/fixposition_driver_lib-targets-release.cmake
+[0.579s] -- Up-to-date: /home/lhl/fixposition_driver/install/fixposition_driver_lib/include/fixposition_driver_lib
+[0.580s] -- Up-to-date: /home/lhl/fixposition_driver/install/fixposition_driver_lib/include/fixposition_driver_lib/gnss_tf.hpp
+[0.580s] -- Up-to-date: /home/lhl/fixposition_driver/install/fixposition_driver_lib/include/fixposition_driver_lib/parser.hpp
+[0.580s] -- Up-to-date: /home/lhl/fixposition_driver/install/fixposition_driver_lib/include/fixposition_driver_lib/messages
+[0.580s] -- Up-to-date: /home/lhl/fixposition_driver/install/fixposition_driver_lib/include/fixposition_driver_lib/messages/nov_type.hpp
+[0.580s] -- Up-to-date: /home/lhl/fixposition_driver/install/fixposition_driver_lib/include/fixposition_driver_lib/messages/nmea_type.hpp
+[0.581s] -- Up-to-date: /home/lhl/fixposition_driver/install/fixposition_driver_lib/include/fixposition_driver_lib/messages/msg_data.hpp
+[0.581s] -- Up-to-date: /home/lhl/fixposition_driver/install/fixposition_driver_lib/include/fixposition_driver_lib/messages/fpb_measurements.hpp
+[0.582s] -- Up-to-date: /home/lhl/fixposition_driver/install/fixposition_driver_lib/include/fixposition_driver_lib/messages/fpb_type.hpp
+[0.582s] -- Up-to-date: /home/lhl/fixposition_driver/install/fixposition_driver_lib/include/fixposition_driver_lib/messages/base_converter.hpp
+[0.584s] -- Up-to-date: /home/lhl/fixposition_driver/install/fixposition_driver_lib/include/fixposition_driver_lib/messages/fpa_type.hpp
+[0.585s] -- Up-to-date: /home/lhl/fixposition_driver/install/fixposition_driver_lib/include/fixposition_driver_lib/params.hpp
+[0.586s] -- Up-to-date: /home/lhl/fixposition_driver/install/fixposition_driver_lib/include/fixposition_driver_lib/time_conversions.hpp
+[0.586s] -- Up-to-date: /home/lhl/fixposition_driver/install/fixposition_driver_lib/include/fixposition_driver_lib/fixposition_driver.hpp
+[0.586s] -- Up-to-date: /home/lhl/fixposition_driver/install/fixposition_driver_lib/include/fixposition_driver_lib/helper.hpp
+[0.586s] -- Up-to-date: /home/lhl/fixposition_driver/install/fixposition_driver_lib/share/fixposition_driver_lib/package.xml
+[0.586s] -- Up-to-date: /home/lhl/fixposition_driver/install/fixposition_driver_lib/lib/cmake/fixposition_driver_lib/fixposition_driver_lib-config.cmake
+[0.586s] -- Up-to-date: /home/lhl/fixposition_driver/install/fixposition_driver_lib/lib/cmake/fixposition_driver_lib/fixposition_driver_lib-config-version.cmake
+[0.587s] Invoked command in '/home/lhl/fixposition_driver/build/fixposition_driver_lib' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lhl/fixposition_driver/install/fixposition_extractor:/opt/ros/humble /usr/bin/cmake --install /home/lhl/fixposition_driver/build/fixposition_driver_lib

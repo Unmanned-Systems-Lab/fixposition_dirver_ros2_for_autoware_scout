@@ -1,0 +1,162 @@
+[0.209s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'fixposition_extractor']
+[0.210s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['fixposition_extractor'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff9e23ec80>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff9e23e740>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff9e23e740>>)
+[0.569s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.569s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.569s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.569s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.570s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.570s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.570s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lhl/fixposition_driver'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_driver_lib) by extensions ['ignore', 'ignore_ament_install']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_driver_lib) by extension 'ignore'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_driver_lib) by extension 'ignore_ament_install'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_driver_lib) by extensions ['colcon_pkg']
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_driver_lib) by extension 'colcon_pkg'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_driver_lib) by extensions ['colcon_meta']
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_driver_lib) by extension 'colcon_meta'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_driver_lib) by extensions ['ros']
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_driver_lib) by extension 'ros'
+[0.636s] DEBUG:colcon.colcon_core.package_identification:Package 'fixposition_driver_lib' with type 'ros.cmake' and name 'fixposition_driver_lib'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_driver_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_driver_ros2) by extension 'ignore'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_driver_ros2) by extension 'ignore_ament_install'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_driver_ros2) by extensions ['colcon_pkg']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_driver_ros2) by extension 'colcon_pkg'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_driver_ros2) by extensions ['colcon_meta']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_driver_ros2) by extension 'colcon_meta'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_driver_ros2) by extensions ['ros']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_driver_ros2) by extension 'ros'
+[0.640s] DEBUG:colcon.colcon_core.package_identification:Package 'fixposition_driver_ros2' with type 'ros.ament_cmake' and name 'fixposition_driver_ros2'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_extractor) by extensions ['ignore', 'ignore_ament_install']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_extractor) by extension 'ignore'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_extractor) by extension 'ignore_ament_install'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_extractor) by extensions ['colcon_pkg']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_extractor) by extension 'colcon_pkg'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_extractor) by extensions ['colcon_meta']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_extractor) by extension 'colcon_meta'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_extractor) by extensions ['ros']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_extractor) by extension 'ros'
+[0.643s] DEBUG:colcon.colcon_core.package_identification:Found ROS schema reference in package manifest in 'fixposition_extractor'
+[0.643s] WARNING:colcon.colcon_core.package_identification:Failed to parse ROS package manifest in 'fixposition_extractor': Error(s) in package 'fixposition_extractor/package.xml':
+Error(s):
+- The generic dependency on 'rclpy' is redundant with: exec_depend
+- The generic dependency on 'geometry_msgs' is redundant with: exec_depend
+- The generic dependency on 'fixposition_driver_ros2' is redundant with: exec_depend
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_extractor) by extensions ['cmake', 'python']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_extractor) by extension 'cmake'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_extractor) by extension 'python'
+[0.644s] DEBUG:colcon.colcon_core.package_identification:Python package in 'fixposition_extractor' passes arguments to the setup() function which requires a different identification extension than 'python'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_extractor) by extensions ['python_setup_py']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_extractor) by extension 'python_setup_py'
+[1.200s] DEBUG:colcon.colcon_core.package_identification:Package 'fixposition_extractor' with type 'python' and name 'fixposition_extractor'
+[1.200s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_odometry_converter_ros2) by extensions ['ignore', 'ignore_ament_install']
+[1.201s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_odometry_converter_ros2) by extension 'ignore'
+[1.201s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_odometry_converter_ros2) by extension 'ignore_ament_install'
+[1.201s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_odometry_converter_ros2) by extensions ['colcon_pkg']
+[1.201s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_odometry_converter_ros2) by extension 'colcon_pkg'
+[1.201s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_odometry_converter_ros2) by extensions ['colcon_meta']
+[1.201s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_odometry_converter_ros2) by extension 'colcon_meta'
+[1.201s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_odometry_converter_ros2) by extensions ['ros']
+[1.201s] Level 1:colcon.colcon_core.package_identification:_identify(fixposition_odometry_converter_ros2) by extension 'ros'
+[1.203s] DEBUG:colcon.colcon_core.package_identification:Package 'fixposition_odometry_converter_ros2' with type 'ros.ament_cmake' and name 'fixposition_odometry_converter_ros2'
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.204s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.204s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.204s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.204s] Level 1:colcon.colcon_core.package_identification:_identify(rtcm_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.204s] Level 1:colcon.colcon_core.package_identification:_identify(rtcm_msgs) by extension 'ignore'
+[1.204s] Level 1:colcon.colcon_core.package_identification:_identify(rtcm_msgs) by extension 'ignore_ament_install'
+[1.204s] Level 1:colcon.colcon_core.package_identification:_identify(rtcm_msgs) by extensions ['colcon_pkg']
+[1.204s] Level 1:colcon.colcon_core.package_identification:_identify(rtcm_msgs) by extension 'colcon_pkg'
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(rtcm_msgs) by extensions ['colcon_meta']
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(rtcm_msgs) by extension 'colcon_meta'
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(rtcm_msgs) by extensions ['ros']
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(rtcm_msgs) by extension 'ros'
+[1.210s] DEBUG:colcon.colcon_core.package_identification:Package 'rtcm_msgs' with type 'ros.ament_cmake' and name 'rtcm_msgs'
+[1.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.255s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'fixposition_driver_lib' in 'fixposition_driver_lib'
+[1.255s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rtcm_msgs' in 'rtcm_msgs'
+[1.255s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'fixposition_driver_ros2' in 'fixposition_driver_ros2'
+[1.255s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'fixposition_odometry_converter_ros2' in 'fixposition_odometry_converter_ros2'
+[1.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.260s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/lhl/fixposition_driver/install
+[1.263s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 354 installed packages in /opt/ros/humble
+[1.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.351s] Level 5:colcon.colcon_core.verb:set package 'fixposition_extractor' build argument 'cmake_args' from command line to 'None'
+[1.351s] Level 5:colcon.colcon_core.verb:set package 'fixposition_extractor' build argument 'cmake_target' from command line to 'None'
+[1.351s] Level 5:colcon.colcon_core.verb:set package 'fixposition_extractor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.351s] Level 5:colcon.colcon_core.verb:set package 'fixposition_extractor' build argument 'cmake_clean_cache' from command line to 'False'
+[1.351s] Level 5:colcon.colcon_core.verb:set package 'fixposition_extractor' build argument 'cmake_clean_first' from command line to 'False'
+[1.351s] Level 5:colcon.colcon_core.verb:set package 'fixposition_extractor' build argument 'cmake_force_configure' from command line to 'False'
+[1.351s] Level 5:colcon.colcon_core.verb:set package 'fixposition_extractor' build argument 'ament_cmake_args' from command line to 'None'
+[1.351s] Level 5:colcon.colcon_core.verb:set package 'fixposition_extractor' build argument 'catkin_cmake_args' from command line to 'None'
+[1.351s] Level 5:colcon.colcon_core.verb:set package 'fixposition_extractor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.351s] DEBUG:colcon.colcon_core.verb:Building package 'fixposition_extractor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lhl/fixposition_driver/build/fixposition_extractor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lhl/fixposition_driver/install/fixposition_extractor', 'merge_install': False, 'path': '/home/lhl/fixposition_driver/fixposition_extractor', 'symlink_install': False, 'test_result_base': None}
+[1.352s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.355s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.355s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/lhl/fixposition_driver/fixposition_extractor'
+[1.360s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.360s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.360s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.935s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lhl/fixposition_driver/fixposition_extractor': PYTHONPATH=/home/lhl/fixposition_driver/build/fixposition_extractor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lhl/fixposition_driver/install/fixposition_extractor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/fixposition_extractor build --build-base /home/lhl/fixposition_driver/build/fixposition_extractor/build install --record /home/lhl/fixposition_driver/build/fixposition_extractor/install.log --single-version-externally-managed install_data
+[3.571s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lhl/fixposition_driver/fixposition_extractor' returned '0': PYTHONPATH=/home/lhl/fixposition_driver/build/fixposition_extractor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lhl/fixposition_driver/install/fixposition_extractor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/fixposition_extractor build --build-base /home/lhl/fixposition_driver/build/fixposition_extractor/build install --record /home/lhl/fixposition_driver/build/fixposition_extractor/install.log --single-version-externally-managed install_data
+[3.580s] Level 1:colcon.colcon_core.environment:checking '/home/lhl/fixposition_driver/install/fixposition_extractor' for CMake module files
+[3.582s] Level 1:colcon.colcon_core.environment:checking '/home/lhl/fixposition_driver/install/fixposition_extractor' for CMake config files
+[3.585s] Level 1:colcon.colcon_core.environment:checking '/home/lhl/fixposition_driver/install/fixposition_extractor/lib'
+[3.585s] Level 1:colcon.colcon_core.environment:checking '/home/lhl/fixposition_driver/install/fixposition_extractor/bin'
+[3.586s] Level 1:colcon.colcon_core.environment:checking '/home/lhl/fixposition_driver/install/fixposition_extractor/lib/pkgconfig/fixposition_extractor.pc'
+[3.587s] Level 1:colcon.colcon_core.environment:checking '/home/lhl/fixposition_driver/install/fixposition_extractor/lib/python3.10/site-packages'
+[3.587s] Level 1:colcon.colcon_core.shell:create_environment_hook('fixposition_extractor', 'pythonpath')
+[3.588s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lhl/fixposition_driver/install/fixposition_extractor/share/fixposition_extractor/hook/pythonpath.ps1'
+[3.591s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lhl/fixposition_driver/install/fixposition_extractor/share/fixposition_extractor/hook/pythonpath.dsv'
+[3.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lhl/fixposition_driver/install/fixposition_extractor/share/fixposition_extractor/hook/pythonpath.sh'
+[3.595s] Level 1:colcon.colcon_core.environment:checking '/home/lhl/fixposition_driver/install/fixposition_extractor/bin'
+[3.595s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fixposition_extractor)
+[3.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/lhl/fixposition_driver/install/fixposition_extractor/share/fixposition_extractor/package.ps1'
+[3.599s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lhl/fixposition_driver/install/fixposition_extractor/share/fixposition_extractor/package.dsv'
+[3.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/lhl/fixposition_driver/install/fixposition_extractor/share/fixposition_extractor/package.sh'
+[3.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/lhl/fixposition_driver/install/fixposition_extractor/share/fixposition_extractor/package.bash'
+[3.603s] INFO:colcon.colcon_core.shell:Creating package script '/home/lhl/fixposition_driver/install/fixposition_extractor/share/fixposition_extractor/package.zsh'
+[3.606s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lhl/fixposition_driver/install/fixposition_extractor/share/colcon-core/packages/fixposition_extractor)
+[3.607s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.608s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.609s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.610s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.633s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.634s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.634s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.690s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.692s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lhl/fixposition_driver/install/local_setup.ps1'
+[3.695s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lhl/fixposition_driver/install/_local_setup_util_ps1.py'
+[3.698s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lhl/fixposition_driver/install/setup.ps1'
+[3.701s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lhl/fixposition_driver/install/local_setup.sh'
+[3.702s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lhl/fixposition_driver/install/_local_setup_util_sh.py'
+[3.703s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lhl/fixposition_driver/install/setup.sh'
+[3.706s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lhl/fixposition_driver/install/local_setup.bash'
+[3.707s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lhl/fixposition_driver/install/setup.bash'
+[3.710s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lhl/fixposition_driver/install/local_setup.zsh'
+[3.711s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lhl/fixposition_driver/install/setup.zsh'

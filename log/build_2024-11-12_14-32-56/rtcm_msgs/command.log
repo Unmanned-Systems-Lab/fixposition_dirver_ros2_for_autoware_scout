@@ -1,0 +1,4 @@
+Invoking command in '/home/lhl/fixposition_driver/build/rtcm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lhl/fixposition_driver/build/rtcm_msgs -- -j8 -l8
+Invoked command in '/home/lhl/fixposition_driver/build/rtcm_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lhl/fixposition_driver/build/rtcm_msgs -- -j8 -l8
+Invoking command in '/home/lhl/fixposition_driver/build/rtcm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lhl/fixposition_driver/build/rtcm_msgs
+Invoked command in '/home/lhl/fixposition_driver/build/rtcm_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lhl/fixposition_driver/build/rtcm_msgs
